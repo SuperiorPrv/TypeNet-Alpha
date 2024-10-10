@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body>
+    <div class="flexbox">
+        <h1 class="typenet">TypeNet</h1>
+        <div class="flexbox_right">
+            <div>
+                <img src="" alt="" class="userAvatar1">
+                <h2 class="userName1"></h2>
+            </div>
+            <a href="/index.html" class="logOutButton">Log out</a>
+        </div>
+    </div>
+    <hr>
+    <div class="currentUser">
+        <div class="left">
+            <img src="" alt="" class="userAvatar">
+        </div>
+        <div class="right">
+            <h2 class="userFullname"></h2>
+            <h4 class="userEmail"></h4>
+            <p class="userBio"></p>
+            <p class="userSignupDate"></p>
+            <div class="">
+                <button class="editAccount">Edit Account</button>
+                <button class="deleteAccount">Delete account</button>
+            </div>
+        </div>
+    </div>
+    <dialog class="deleteAccountDialog">
+        <h1>Delete your account</h1>
+        <p>Are you sure you want to delete your account? This action cannot be undone.</p>
+        <input type="password" placeholder="Account password:" class="checkPassword">
+        <div class="">
+            <button class="deleteAccountButton">Delete</button>
+            <button class="cancelDeleteButton">Cancel</button>
+        </div>
+    </dialog>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="/currentUserPageScripts/main.js"></script>
+</body>
+</html>

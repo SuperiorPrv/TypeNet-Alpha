@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="flexbox">
+        <h1 class="typenet">TypeNet</h1>
+        <div class="flexbox_right">
+            <div>
+                <img src="" alt="" class="userAvatar1">
+                <h2 class="userName1"></h2>
+            </div>
+            <a href="/index.html" class="logOutButton">Log out</a>
+        </div>
+    </div>
+    <hr>
+    <form action="" class="editUserForm">
+        <input type="text" name="firstname" placeholder="First name:">
+        <input type="text" name="lastname" placeholder="Last name:">
+        <input type="tel" name="phone" placeholder="Phone number:">
+        <input type="email" name="email" placeholder="Email:">
+        <input type="password" name="password" placeholder="New password:">
+        <input type="url" name="avatar" placeholder="Avatar URL:">
+        <input type="text" name="bio" placeholder="About yourself:">
+        <input type="password" name="prevpassword" placeholder="Old password:">
+        <button type="submit">Save</button>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="/editAccountScripts/dom.js"></script>
+</body>
+</html>

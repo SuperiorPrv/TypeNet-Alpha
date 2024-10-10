@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Main page / TypeNet</title>
+</head>
+<body>
+    <div class="flexbox">
+        <h1 class="typenet">TypeNet</h1>
+        <div class="flexbox_right">
+            <div>
+                <img src="" alt="" class="userAvatar">
+                <h2 class="userName"></h2>
+            </div>
+            <a href="/index.html" class="logOutButton">Log out</a>
+        </div>
+    </div>
+    <hr>
+    <h1>Main Page</h1>
+    <div class="block1">
+        <div class="left1">
+            <h2>Users</h2>
+        </div>
+        <div class="right1">
+            <h2>Chats</h2>
+            <button class="newChatButton">New chat</button>
+        </div>
+    </div>
+    <dialog class="newChatDialog">
+        <button class="closeNewChatButton">x</button>
+        <form action="" class="newChatForm">
+            <input type="text" name="name" placeholder="Chat name:">    
+            <input type="url" name="avatar" placeholder="Chat avatar URL:">
+            <h2>Add users</h2>
+            <div class="selectChatUsers">
+                
+            </div>
+        </form>
+    </dialog>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="/mainPageScripts/main.js"></script>
+</body>
+</html>
